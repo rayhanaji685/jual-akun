@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #7dd3fc; /* Warna biru muda */
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 20px ;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 15px;
+  }
+
+  .logo img{
+    text-align: leftx ;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .brand h1 {
+    margin: 0;
+    color: #3b82f6;
+    letter-spacing: 2px;
+  }
+  
+  .brand p {
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+  }
+  
+  nav {
+    margin-top: 120px;
+    background-color: #38bdf8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 300px;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .produk-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .produk {
+    background-color: white;
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .produk h2 {
+    margin-top: 0;
+    background-color: #06b6d4;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .produk img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .stok {
+    color: #16a34a;
+    font-weight: bold;
+  }
+  
+  .harga {
+    color: red;
+    font-weight: bold;
+  }
+
+  .logo-circle {
+    width: 100px;
+    height: 1300px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-btns .btn {
+    background-color: #38bdf8;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+    margin: 0 5px;
+  }
+  .card-title {
+    background-color: #06b6d4;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .harga {
+    color: red;
+    font-weight: bold;
+  }
+  .stok {
+    color: green;
+    font-weight: bold;
+  }
